@@ -10,7 +10,9 @@ const Transition = forwardRef(function Transition(props, ref) {
 });
 
 //API
-const API_URL = 'http://127.0.0.1:5001/api/todos';
+// const API_URL = 'http://127.0.0.1:5001/api/todos';
+// const API_URL = 'http://backend:5001/api/todos';
+const API_URL = 'http://localhost:5001/api/todos';
 
 
 // google fonts
